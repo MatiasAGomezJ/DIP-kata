@@ -1,10 +1,12 @@
 package edu.poniperro.dip.ejercicio.negocio;
 
-public class ControladorEstoc {
+import edu.poniperro.dip.ejercicio.interfaces.IInventario;
 
-    private final MiControlador inventario;
+public class ControladorEstoc implements IControlador {
 
-    public ControladorEstoc(MiControlador inventario) {
+    private final IInventario inventario;
+
+    public ControladorEstoc(IInventario inventario) {
         this.inventario = inventario;
     }
 
