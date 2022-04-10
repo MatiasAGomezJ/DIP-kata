@@ -1,5 +1,6 @@
 package edu.poniperro.dip.ejercicio.negocio;
 
+import edu.poniperro.dip.ejercicio.interfaces.IControlador;
 import edu.poniperro.dip.ejercicio.interfaces.IInventario;
 
 public class ControladorEstoc implements IControlador {

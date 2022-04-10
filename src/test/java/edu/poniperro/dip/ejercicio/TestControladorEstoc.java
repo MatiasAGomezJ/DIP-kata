@@ -2,7 +2,7 @@ package edu.poniperro.dip.ejercicio;
 
 import edu.poniperro.dip.ejercicio.bbdd.InventarioBBDD;
 import edu.poniperro.dip.ejercicio.negocio.ControladorEstoc;
-import edu.poniperro.dip.ejercicio.negocio.IControlador;
+import edu.poniperro.dip.ejercicio.interfaces.IControlador;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;

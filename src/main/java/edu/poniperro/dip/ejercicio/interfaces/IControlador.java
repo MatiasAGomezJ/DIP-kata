@@ -1,4 +1,4 @@
-package edu.poniperro.dip.ejercicio.negocio;
+package edu.poniperro.dip.ejercicio.interfaces;
 
 public interface IControlador {
 
